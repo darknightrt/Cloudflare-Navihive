@@ -16,7 +16,7 @@
     // D1数据库绑定
     "d1_databases": [
         {
-            "binding": "demo",
+            "binding": "DB",
             "database_name": "navigation-db",
             "database_id": "73e83511-d25c-4ef5-86c8-9d19d3c8f900"
         }
