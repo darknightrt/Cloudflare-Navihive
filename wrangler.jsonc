@@ -4,7 +4,7 @@
  */
 {
     "$schema": "node_modules/wrangler/config-schema.json",
-    "name": "demo",
+    "name": "gu",
     "main": "worker/index.ts",
     "compatibility_date": "2025-05-14",
     "assets": {
