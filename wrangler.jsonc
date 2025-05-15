@@ -4,9 +4,9 @@
  */
 {
     "$schema": "node_modules/wrangler/config-schema.json",
-    "name": "navihive",
+    "name": "demo",
     "main": "worker/index.ts",
-    "compatibility_date": "2025-04-05",
+    "compatibility_date": "2025-05-14",
     "assets": {
         "not_found_handling": "single-page-application"
     },
@@ -16,15 +16,15 @@
     // D1数据库绑定
     "d1_databases": [
         {
-            "binding": "DB",
-            "database_name": "navigation-db-local",
-            "database_id": "43ff28e1-42d6-4e53-9657-0702ae1353b6"
+            "binding": "demo",
+            "database_name": "navigation-db",
+            "database_id": "73e83511-d25c-4ef5-86c8-9d19d3c8f900"
         }
     ],
     "vars": {
         "AUTH_ENABLED": "true",
-        "AUTH_USERNAME": "linuxdo",
-        "AUTH_PASSWORD": "linuxdo",
-        "AUTH_SECRET": "linuxdo"
+        "AUTH_USERNAME": "night",
+        "AUTH_PASSWORD": "123789",
+        "AUTH_SECRET": "yujjjjjjjj"
     }
 }
